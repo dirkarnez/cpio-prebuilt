@@ -30,8 +30,10 @@ jobs:
 
       - shell: cmd
         run: |
-          curl https://ftp.gnu.org/gnu/cpio/cpio-${{ env.version }}.tar.bz2 -L -O &&^
-          echo downloaded &&^
+          curl https://ftp.gnu.org/gnu/cpio/cpio-${{ env.version }}.tar.bz2 -O
+          
+      - shell: cmd
+        run: |
           tar -jxvf cpio-${{ env.version }}.tar.bz2 &&^
           rename cpio-${{ env.version }} ${{ env.libraryName }} &&^
           dir
