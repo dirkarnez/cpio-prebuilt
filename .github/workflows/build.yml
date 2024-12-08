@@ -28,9 +28,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - shell: cmd
-        run: |
-          curl https://ftp.gnu.org/gnu/cpio/cpio-${{ env.version }}.tar.bz2 -O
+      # - shell: cmd
+      #   run: |
+      #     curl https://ftp.gnu.org/gnu/cpio/cpio-${{ env.version }}.tar.bz2 -O
           
       - shell: cmd
         run: |
