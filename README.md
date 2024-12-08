@@ -6,7 +6,7 @@ Prebuilt of [Cpio - GNU Project - Free Software Foundation](https://www.gnu.org/
 
 ### Distribution
 - [Index of /gnu/cpio](https://ftp.gnu.org/gnu/cpio/?C=M;O=D)
-
+- https://mirrors.tuna.tsinghua.edu.cn/msys2/msys/x86_64/cpio-2.15-1-x86_64.pkg.tar.zst
 
 ### TODOs
 - [ ] WebAssembly
