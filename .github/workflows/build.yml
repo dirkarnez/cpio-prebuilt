@@ -28,6 +28,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # https://git.savannah.gnu.org/git/cpio.git
+
       # - shell: cmd
       #   run: |
       #     curl https://ftp.gnu.org/gnu/cpio/cpio-${{ env.version }}.tar.bz2 -O
